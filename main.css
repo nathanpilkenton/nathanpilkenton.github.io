@@ -1,0 +1,509 @@
+<!--
+
+COLOR LIST
+
+Peter River: #3498db
+Belize Hole: #2980b9
+Wet Asphalt: #34495e
+Midnight Blue: #2c3e50
+Clouds: #ecf0f1
+Silver: #bdc3c7
+Concrete: #95a5a6
+Asbestos: #7f8c8d
+
+Aqua: #006266
+Yellow: #F79F1F
+Orange: #EE5A24
+
+-->
+
+/*
+
+@font-face{
+    
+font-family: 'League Spartan';
+    
+src: url('leaguespartan-bold.eot') format('eot');
+    
+src: url('LeagueSpartanVariable.woff2') format('woff2'),
+     url('leaguespartan-bold-webfont.woff') format('woff'),
+     url('LeagueSpartan-Bold.otf') format('opentype'),
+     url('/leaguespartan-bold.ttf') format('truetype')
+     url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    
+}
+*/
+
+
+
+
+html {
+    width:100%;
+}
+
+body {
+    width:100%;
+}
+
+/*
+.header {
+    height: 100px;
+    background-color: #006266;
+}
+
+.nav {
+    background-color: #006266;
+    border-bottom: 1px solid #006266;
+}
+
+.nav .container {
+    position: relative;
+    top: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.nav li {
+  display: inline;
+  font-weight: 100;
+
+}
+
+.nav p {
+    color: #EE5A24;
+    font-family:'Deja Vu',sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    font-style:italic;
+    margin-top:0.5rem;
+}
+
+.vertical-center {
+  min-height: 100px;  These two lines are counted as one :-)       
+  display: flex;
+  align-items: center;
+  margin-left: 0px!important;
+  margin-right:0px!important;
+  width:100%;
+}
+
+.col-md-12 {
+  background-color:#ecf0f1;
+  background-size: cover;
+}
+
+.col-md-12 .thumbnail {
+background-color:#ecf0f1;
+border:1px solid #ecf0f1;
+}
+
+.col-md-12 .thumbnail img {
+background-color: #ecf0f1;
+}
+
+.jumbotron {
+  background-color:#ffffff;
+  background-size: cover;
+}
+
+.jumbotron img {
+    max-width: 100%;
+}
+
+.jumbotron h1 {
+  color: #006266;
+  font-size: 140px;  
+  font-weight: 300;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow: none;
+}
+*/
+
+.spacing {
+    background-color: #006266;
+}
+
+.spacing .container h1 {
+    color: #EE5A24;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: none;
+/*    padding-bottom: 10px;*/
+    font-family:'Deja Vu',sans-serif;
+    font-style:italic;
+}
+
+.links {
+    background-color: #006266;
+    height: auto;
+}
+
+.links .container {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #EE5A24;
+    border-bottom: 3px solid #EE5A24;
+}
+
+.links .container .row .col-md-3 .thumbnail {
+    background-color: #006266;
+    border: 1px solid #006266;
+    position: relative;
+    top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.links .footer {
+    position:relative;
+    top: 100px;
+}
+
+.links .footer p {
+    color:white;
+    font-size:13px;
+    font-weight:100;
+    text-align:center;
+    text-shadow:none;
+}
+
+
+.bottom-box {
+    padding-top:10px;
+    background-color:#006266;
+}
+
+
+a.otherlink {
+  color: #F79F1F;
+  font-size: 20px;
+  font-weight: 100;
+  font-family:'Deja Vu',sans-serif;
+  text-decoration:none;
+}
+
+a.otherlink:hover {
+  color: #F79F1F;
+}
+
+a.otherlink:visited {
+  color: #F79F1F;
+}
+
+.custom-nav {
+    background-color:#006266;
+    min-height:100px;
+}
+
+.custom-left-pad {
+    padding-right:51px;   
+}
+
+.width-limiter {
+    width:100%;
+    max-width:1250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.bigname {
+    color: #EE5A24;
+    font-family:'League Spartan Bold', 'Deja Vu',sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    text-align: center;
+/*    font-style:italic;*/
+}
+
+
+.intro-header {
+    font-family:'League Spartan Bold', 'Deja Vu', sans-serif;
+    font-size:43px;
+    font-weight:600;
+    margin-bottom: 4rem;
+    color:#EE5A24;
+}
+
+
+.home-text p {
+    font-family:'Deja Vu', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    line-height:1.6;
+    color:#006266;
+    margin-bottom: 2rem;
+}
+
+
+/*BEARD LENGTH */
+
+.beard-title {
+    text-align:center;
+    margin-bottom:1rem;
+}
+
+.icon-container h3 {
+    font-family:'Deja Vu', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:#006266;
+    font-style: italic;
+    padding-top:1rem;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-block;
+}
+
+.beard-title h3 {
+    font-family:'League Spartan Bold', 'Deja Vu', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#006266;
+}
+
+.beard-highlight {
+    color: #EE5A24;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.img-container {
+    text-align:center;
+    margin-bottom: 1rem;
+}
+
+.beard-image {
+    max-height:500px;
+    max-width:100%;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ui-slider {
+    background-color:#006266!important;
+    height:0.75em!important;
+}
+
+.ui-slider-handle {
+    border-radius: 5rem!important;
+    border-color: #F79F1F!important;
+    background-color: #F79F1F!important;
+}
+
+.ui-slider-handle:after {
+/*    content:'⬌';*/
+    content: url(slider_arrows_small.png);
+    height:10px;
+/*    font-size:.5rem;*/
+    color:#006266;
+    position:absolute;
+    top:-3px;
+    left:1px;
+}
+
+svg {
+  transform: rotate(90deg);
+}
+
+.head-icon {
+    height:40px;
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.beard-icon {
+    height:40px;
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.button-container {
+    text-align:center;
+}
+
+.mustache-button {
+    border: 3px #006266 solid;
+    border-radius: 6px;
+/*
+    color:#006266;
+    background-color:#ffffff;
+*/
+    color:#ffffff;
+    background-color:#006266;
+    font-family:'Deja Vu',sans-serif;
+    font-weight:400;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1rem;
+    padding-top: 2px;
+}
+
+.activated {
+    border: 3px #EE5A24 solid;
+    border-radius: 6px;
+    color:#ffffff;
+    background-color:#EE5A24;;
+    font-weight:600;
+}
+
+/*NEW FOOTER*/
+
+footer {
+     background-color:#006266;
+}
+
+.contact-bar {
+   
+    padding-top:20px;
+}
+
+.contact-bar h1 {
+    color: #EE5A24;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: none;
+/*    padding-bottom: 10px;*/
+    font-family:'League Spartan Bold', 'Deja Vu',sans-serif;
+/*    font-style:italic;*/
+}
+
+.link-image {
+    margin-top:25px;
+    margin-bottom:25px;
+    display:block;
+    text-align:center;
+}
+
+.border-line {
+    height: 0px;
+    border-bottom: 3px solid #EE5A24;
+}
+
+.top-border {
+    margin-left: 25%;
+}
+
+.bottom-border {
+    margin-right: 25%;
+}
+
+#credit {
+    background-color:#006266;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+
+#credit p {
+/*    color:#EE5A24;*/
+    color:#F79F1F;
+    text-align:center;
+    font-size:12px;
+    font-family:'Deja Vu', sans-serif;
+    font-weight:100;
+    text-shadow: none;
+    margin-bottom:0px;
+/*    font-style:italic;*/
+}
+
+
+
+/*PROJECTS STYLES*/
+
+.project-title h1 {
+    text-align:center;
+}
+
+.project-title hr {
+    border-color:#006266;
+}
+
+.project-row h2 {
+    font-family:'League Spartan Bold', 'Deja Vu', sans-serif;
+    font-size:24px;
+    font-weight:600;
+    line-height:1.6;
+    color:#006266;
+    color:#EE5A24;
+/*    font-style:italic;*/
+    margin-bottom:1em;
+}
+
+.project-row p {
+    font-family:'Deja Vu', sans-serif;
+    font-size:18px;
+    font-weight:400;
+    line-height:1.6;
+    color:#006266;
+}
+
+.project-row a {
+    color:#EE5A24;
+}
+
+.project-row a:hover {
+    color:#EE5A24;
+}
+
+.project-row a:visited {
+    color:#EE5A24;
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .mobile-title {
+        font-size:32px!important;
+    }
+    
+    .mobile-body {
+        font-size:16px!important;   
+    }
+    
+    .head-icon {
+    height:30px;
+    float:left;
+    margin-top:10px;
+    margin-left:0px;
+    }
+
+    .beard-icon {
+        height:30px;
+        float:right;
+        margin-top:10px;
+        margin-right:0px;
+    }
+    
+    .icon-container h3 {
+    font-size:12px;
+    padding-top:1rem;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-block;
+}
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    .custom-left-pad {
+        padding-right:0px!important;
+    }
+}
